@@ -40,19 +40,19 @@ Given that the data visualizations did not offer any obvious insights into sales
 3) Bagged Tree Model
 4) Random Forest Model
 
-After further manipulating the data so that the computer could perform ML models (one hot encoding), data was run through the above supervised learning models.  The Random Forest Model, despite being overfit, yielded the best fit of the four models (see correlation and RMSE values below).
+After further manipulating the data so that the computer could perform ML models (one hot encoding), data was run through the above supervised learning models.  The Regression Tree Model yielded the best fit of the four models on the TEST data (see correlation and RMSE values below).
 
-R^2 train:  Suggests that the model could account for 90% of the variation on the training data.
+R^2 train:  Suggests that the model could account for 61% of the variation on the training data.
 
-0.9370377920925759
+0.6122318361448813
 
-R^2 test:  Suggests that the model could only account for 55% of the variation on the test data.
+R^2 test:  Suggests that the model could only account for 59% of the variation on the test data.
 
-0.551683795847306
+0.588890582401477
 
-RMSE:  Suggests that the range of mean predicted values have a variance of $670 vs. actuals.
+RMSE:  Suggests that the range of mean predicted values have a variance of $1,070 vs. actuals.
 
-670.0781825468398
+1069.6948273117068
 
 
 
